@@ -1,0 +1,10 @@
+#tableRow{
+    max-width: 80%;
+}
+
+@media (max-width: 651px) {
+ #tableRow{
+    overflow-x: scroll;
+ }
+   
+}

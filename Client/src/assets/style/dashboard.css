@@ -1,0 +1,116 @@
+ul{
+    position: sticky;
+    top: 0;
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boxes div{
+    width: 20%;
+    margin-bottom: 2%;
+    margin: 10px 10px;
+}
+
+.boxes .div :hover{
+    opacity: 0.2s;
+    background-color: red;
+}
+
+@media (min-width: 200px){
+    .boxes{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+    }
+
+    .boxes div{
+       width: 60%;
+       margin-bottom: 2%;
+   }
+  
+  }
+
+
+@media (min-width: 462px){
+    .boxes{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+     }
+
+  .boxes div{
+     width: 70%;
+     margin-bottom: 2%; 
+  }
+  
+  }
+
+  @media (min-width: 602px) and (max-width: 625px){
+    .boxes{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+     }
+
+    .boxes div{
+       width: 40%;
+       margin: 0 0 2% 6%;
+   }
+  
+  }
+
+@media (min-width: 625px) and (max-width: 799px) {
+    .boxes{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+     }
+
+    .boxes div{
+        width: 42%;
+        margin: 0 0 2% 6%;
+    }
+}
+
+@media (min-width: 799px) and (max-width: 950px) {
+    .boxes{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+    
+    .boxes div{
+        width: 40%;
+        margin: 0 0 2% 6%;
+    }
+    
+}
+
+
+@media (min-width: 951px){
+    .boxes{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .boxes div{
+        width: 22%;
+        /* margin: 0 0 2% 6%; */
+    }
+}
+
+@media (min-width: 1000px){
+    .boxes{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+    
+    .boxes div{
+        width: 25%;
+        margin: 0 0 2% 6%;
+    }
+}

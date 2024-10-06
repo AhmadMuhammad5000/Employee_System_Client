@@ -1,0 +1,28 @@
+#tableRow{
+    max-width: 90%;
+}
+
+#selectRow{
+    width: 8%;
+}
+
+@media (min-width: 651px) and (max-width: 1101px) {
+    #tableRow{
+       overflow-x: scroll;
+    }
+      
+   }
+
+@media (max-width: 651px) {
+ #tableRow{
+    overflow-x: scroll;
+ }
+   
+}
+
+@media (max-width: 1100px) {
+   #selectRow{
+      width: 10%; 
+ } 
+
+} 
